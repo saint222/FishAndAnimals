@@ -8,6 +8,11 @@ namespace FishAndAnimals
 {
     public class Bird : Animal
     {
-        public Colour Colour { get; set; }
+        public Color Colour { get; set; }
+
+        public void CanFly()
+        {
+            Console.WriteLine($"The bird {Name} of {Colour} color with the length of it's body {Length} cm. and it's {Weight} kg.;");
+        }
     }
 }

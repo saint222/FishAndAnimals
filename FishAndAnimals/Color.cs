@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FishAndAnimals
 {
-    public enum Colour
+    public enum Color
     {
         red,
         blue,

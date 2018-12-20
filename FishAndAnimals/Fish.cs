@@ -9,5 +9,10 @@ namespace FishAndAnimals
    public class Fish : Animal
     {
         public TypeOfWaterPreference TypeOfWaterPreference { get; set; }
+
+        public void CanSwim()
+        {
+            Console.WriteLine($"The bird {Name} with the length of it's body {Length} cm. and it's {Weight} kg. lives in {TypeOfWaterPreference} water;");
+        }
     }
 }
