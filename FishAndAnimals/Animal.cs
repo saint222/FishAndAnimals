@@ -14,7 +14,7 @@ namespace FishAndAnimals
 
         public void CanGo ()
         {
-            Console.WriteLine($"The animal {Name} with the length of it's body {Length} cm. and it's {Weight} kg.;");
+            Console.WriteLine($"Here is animal {Name} with the length of it's body {Length} cm. and it's weight {Weight} kg.;");
         }
     }
 }

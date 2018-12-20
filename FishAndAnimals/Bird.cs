@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FishAndAnimals
 {
-    public class Bird : Animal
+    public class Bird : Animal, ICanFly
     {
         public Color Colour { get; set; }
 

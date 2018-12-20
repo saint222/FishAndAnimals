@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FishAndAnimals
 {
-   public class Fish : Animal
+   public class Fish : Animal, ICanSwim
     {
         public TypeOfWaterPreference TypeOfWaterPreference { get; set; }
 

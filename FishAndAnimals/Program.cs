@@ -10,7 +10,9 @@ namespace FishAndAnimals
     {
         static void Main(string[] args)
         {
-
+            var zoo = new Zoo();
+            zoo.ZooDeals();
+            Console.ReadLine();
         }
     }
 }
