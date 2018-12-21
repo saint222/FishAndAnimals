@@ -11,10 +11,34 @@ namespace FishAndAnimals
         public void ZooDeals()
         {
             Fish flatfish = new Fish { Name = "Flipper", Length = 10, Weight = 0.5};
-            Predator cat = new Predator { Name = "Njasha", Length = 25, Weight = 5 };
+            flatfish.CanSwim();
+            
+            Predator cat = new Predator { Name = "cat Njasha", Length = 25, Weight = 5 };
             cat.CanGo();
             cat.EatAnimal(flatfish);
-            Vegetarian rabbit = new Vegetarian { Name = "Roger", Length = 15, Weight = 3 };
+
+            Predator dog = new Predator { Name = "dog Bobik", Length = 50, Weight = 10};
+            dog.CanGo();
+            dog.EatAnimal(cat);
+
+            Vegetarian cow = new Vegetarian { Name = "cow Burjonka", Length = 300, Weight = 100};
+            cow.CanGo();
+            cow.EatGrass();
+            
+            Vegetarian rabbit = new Vegetarian { Name = "rabbit Roger", Length = 15, Weight = 3 };
+            rabbit.CanGo();
+            rabbit.EatGrass();
+
+            FishPredators shark = new FishPredators { Name = "shark Sharky", Length = 300, Weight = 150, TypeOfWaterPreference = TypeOfWaterPreference.salty};
+            shark.CanSwim();
+            shark.EatAnimal(cow);
+
+            BirdPredator eagle = new BirdPredator { Name = "Eagle Fucker", Colour = Color.mixed, Weight = 7, Length = 150};
+            eagle.CanFly();
+            eagle.EatAnimal(rabbit);
+            
+
+            
 
             
 

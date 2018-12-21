@@ -12,7 +12,7 @@ namespace FishAndAnimals
 
         public void CanFly()
         {
-            Console.WriteLine($"The bird {Name} of {Colour} color with the length of it's body {Length} cm. and it's {Weight} kg.;");
+            Console.WriteLine($"Here is {Name} of {Colour} color with the length of it's body {Length} cm. and it's {Weight} kg.;");
         }
     }
 }

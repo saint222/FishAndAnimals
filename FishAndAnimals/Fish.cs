@@ -12,7 +12,7 @@ namespace FishAndAnimals
 
         public void CanSwim()
         {
-            Console.WriteLine($"The bird {Name} with the length of it's body {Length} cm. and it's {Weight} kg. lives in {TypeOfWaterPreference} water;");
+            Console.WriteLine($"Here is fish {Name} with the length of it's body {Length} cm. and it's {Weight} kg. lives in {TypeOfWaterPreference} water;");
         }
     }
 }
