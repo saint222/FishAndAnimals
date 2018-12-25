@@ -10,7 +10,7 @@ namespace FishAndAnimals
     {
         public void EatAnimal(Animal animal)
         {
-            Console.WriteLine($"{Name} -  is a predator and eats {animal.Name};");
+            Console.WriteLine($"{Name} -  is a predator and can eat {animal.Name};");
         }
     }
 }

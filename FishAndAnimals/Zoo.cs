@@ -36,6 +36,14 @@ namespace FishAndAnimals
             BirdPredator eagle = new BirdPredator { Name = "Eagle Fucker", Colour = Color.mixed, Weight = 7, Length = 150};
             eagle.CanFly();
             eagle.EatAnimal(rabbit);
+
+            Bird nightingale = new Bird { Name = "nightingale Singer", Colour = Color.blue, Length = 5, Weight = 0.1 };
+            nightingale.CanFly();
+
+            Bird pigeon = new Bird { Name = "pigeon Dove", Colour = Color.black, Length = 7, Weight = 0.3};
+            pigeon.CanFly();
+            
+            
             
 
             
