@@ -42,6 +42,10 @@ namespace FishAndAnimals
 
             Bird pigeon = new Bird { Name = "pigeon Dove", Colour = Color.black, Length = 7, Weight = 0.3};
             pigeon.CanFly();
+
+            Fish dancer = new Fish { Name = "bird Dancer", TypeOfWaterPreference = TypeOfWaterPreference.salty};
+            dancer.CanSwim();
+            dancer.CanDance();
             
             
             

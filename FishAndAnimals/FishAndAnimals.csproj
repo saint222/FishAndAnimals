@@ -47,6 +47,7 @@
     <Compile Include="BirdPredator.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="Fish.cs" />
+    <Compile Include="FishCanDance.cs" />
     <Compile Include="ICanFly.cs" />
     <Compile Include="ICanGo.cs" />
     <Compile Include="ICanSwim.cs" />
